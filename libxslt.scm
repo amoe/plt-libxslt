@@ -6,7 +6,7 @@
 ; and when I need to use them.
 
 (require scheme/foreign)
-(require libxslt/libxml)
+(require text/libxslt/libxml)
 
 (provide parse-stylesheet-file
          apply-stylesheet

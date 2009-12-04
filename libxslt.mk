@@ -1,4 +1,4 @@
-sitedir = /usr/local/lib/plt/site/libxslt
+sitedir = /usr/local/lib/plt/site/text/libxslt
 objects = libxslt.scm libxml.scm
 mainscm = libxslt.ss
 
