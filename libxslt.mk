@@ -1,5 +1,5 @@
 sitedir = /usr/local/lib/plt/site/text/libxslt
-objects = libxslt.scm libxml.scm
+objects = libxslt.scm libxml.scm suiker.scm
 mainscm = libxslt.ss
 
 all:
