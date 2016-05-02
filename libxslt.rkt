@@ -6,7 +6,7 @@
 ; and when I need to use them.
 
 (require scheme/foreign)
-(require "libxml.scm")    ; ???
+(require "libxml.rkt")    ; ???
 
 (provide parse-stylesheet-file
          apply-stylesheet

@@ -3,8 +3,8 @@
 
 (require scheme/foreign)
 
-(require (prefix-in xslt: libxslt)
-         (prefix-in xml: libxslt/libxml))
+(require (prefix-in xslt: "libxslt.rkt")
+         (prefix-in xml: "libxml.rkt"))
 
 ; FIXME: add parameter passing
 

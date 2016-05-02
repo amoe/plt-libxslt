@@ -2,8 +2,8 @@
 
 #lang scheme
 
-(require (prefix-in xml: "libxml.scm"))
-(require (prefix-in xslt: "libxslt.scm"))
+(require (prefix-in xml: "libxml.rkt"))
+(require (prefix-in xslt: "libxslt.rkt"))
 
 (define doc-in-mem "<?xml version=\"1.0\" ?><persons>  <person username=\"JS1\">    <name>John</name>    <family-name>Smith</family-name>  </person>  <person username=\"MI1\">    <name>Morka</name>    <family-name>Ismincius</family-name>  </person></persons>")
 ; FIXME: add parameter passing

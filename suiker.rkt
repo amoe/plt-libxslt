@@ -1,7 +1,7 @@
 #lang scheme
 
-(require (prefix-in xslt: text/libxslt/main))
-(require (prefix-in xml: text/libxslt/libxml))
+(require (prefix-in xslt: "libxslt.rkt"))
+(require (prefix-in xml: "libxml.rkt"))
 
 (provide xsltproc xsltproc-2 xsltproc-3)
 
